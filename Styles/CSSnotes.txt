@@ -1,0 +1,1 @@
+Note: Anything in a CSS document between /* and */ is a CSS comment, which the browser ignores when it renders the code. This is a place for you to write helpful notes on what you are doing.
