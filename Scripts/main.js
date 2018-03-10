@@ -17,14 +17,14 @@ var page = myHeading.getAttribute('data-page');
 function setUserName() {
   var myName = prompt('Welcome, Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.innerHTML = 'Welcome to ' + page + ', ' + myName;
+  myHeading.innerHTML = 'Welcome to ' + page + ' #1 Ashearrow, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Welcome to ' + page + ', ' + storedName;
+  myHeading.innerHTML = 'Welcome to ' + page + ' #1 Ashearrow, ' + storedName;
 }
 
 if(myButton) {
